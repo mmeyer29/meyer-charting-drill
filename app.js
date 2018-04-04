@@ -1,12 +1,12 @@
 const data = [{
-    x: new Date("2016-01-01"),
-    y: 99
+    x: new Date("2014-01-01"),
+    y: 73
 },{
-    x: new Date("2017-01-01"),
-    y: 186
+    x: new Date("2015-01-01"),
+    y: 199
 },{
-    x: new Date("2018-01-02"),
-    y: 302
+    x: new Date("2016-01-02"),
+    y: 395
 }];
 
 new Chart(document.querySelector("#fiber-chart > canvas").getContext("2d"), {

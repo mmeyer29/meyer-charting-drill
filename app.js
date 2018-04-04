@@ -30,6 +30,8 @@ new Chart(document.querySelector("#fiber-chart > canvas").getContext("2d"), {
         },
         scales: {
             yAxes: [{
+              ticks: {min: 0},
+
                 scaleLabel: {
                     display: true,
                     labelString: "Annual Number of Salads Eaten"
